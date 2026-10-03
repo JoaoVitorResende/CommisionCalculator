@@ -14,6 +14,7 @@
     <ProjectReference Include="..\CommisionCalculator.Application\CommisionCalculator.Application.csproj" />
     <ProjectReference Include="..\CommisionCalculator.Communication\CommisionCalculator.Communication.csproj" />
     <ProjectReference Include="..\CommisionCalculator.Domain\CommisionCalculator.Domain.csproj" />
+    <ProjectReference Include="..\CommisionCalculator.Exception\CommisionCalculator.Exception.csproj" />
   </ItemGroup>
 
 </Project>

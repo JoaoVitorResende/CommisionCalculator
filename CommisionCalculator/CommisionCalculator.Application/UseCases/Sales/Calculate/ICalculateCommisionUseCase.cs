@@ -1,10 +1,10 @@
-﻿using CommisionCalculator.Communication.Responses;
-using CommisionCalculator.Domain.Entities;
+﻿using CommisionCalculator.Communication.Requests;
+using CommisionCalculator.Communication.Responses;
 
 namespace CommisionCalculator.Application.UseCases.Sales.Calculate
 {
     public interface ICalculateCommisionUseCase
     {
-        ResponseSales Execute(List<Sale> sales);
+        ResponseSales Execute(RequestSales req);
     }
 }

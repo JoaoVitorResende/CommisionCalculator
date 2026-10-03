@@ -1,4 +1,5 @@
 using CommisionCalculator.Application;
+using CommisionCalculator.Filter;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddApplication();
-
+builder.Services.AddControllers(options => options.Filters.Add<ExceptionFilter>());
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

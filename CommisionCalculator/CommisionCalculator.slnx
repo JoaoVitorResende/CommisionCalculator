@@ -11,4 +11,7 @@
   <Folder Name="/CommisionCalculator.Domain/">
     <Project Path="CommisionCalculator.Domain/CommisionCalculator.Domain.csproj" />
   </Folder>
+  <Folder Name="/CommisionCalculator.Exception/">
+    <Project Path="CommisionCalculator.Exception/CommisionCalculator.Exception.csproj" Id="25772465-9999-4069-b95e-0ebbcb27078e" />
+  </Folder>
 </Solution>

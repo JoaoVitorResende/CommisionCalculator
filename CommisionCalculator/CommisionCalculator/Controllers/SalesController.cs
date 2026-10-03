@@ -11,11 +11,12 @@ namespace CommisionCalculator.Controllers
     {
         [HttpPost]
         [ProducesResponseType(typeof(ResponseSales), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ResponseError), StatusCodes.Status400BadRequest)]
         public IActionResult Register(
             [FromServices] ICalculateCommisionUseCase useCase,
             [FromBody] RequestSales request)
         {
-            var response = useCase.Execute(request.Sales);
+            var response = useCase.Execute(request);
             return Ok(response);
         }
     }

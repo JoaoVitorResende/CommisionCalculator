@@ -7,12 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.9.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.12" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\CommisionCalculator.Communication\CommisionCalculator.Communication.csproj" />
     <ProjectReference Include="..\CommisionCalculator.Domain\CommisionCalculator.Domain.csproj" />
+    <ProjectReference Include="..\CommisionCalculator.Exception\CommisionCalculator.Exception.csproj" />
   </ItemGroup>
 
 </Project>
