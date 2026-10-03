@@ -2,7 +2,6 @@
 using CommisionCalculator.Communication.Responses;
 using CommisionCalculator.Domain.Entities;
 using CommisionCalculator.Exception.InvalidInput;
-using System.ComponentModel.DataAnnotations;
 
 namespace CommisionCalculator.Application.UseCases.Sales.Calculate
 {
