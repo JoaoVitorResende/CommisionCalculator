@@ -1,0 +1,6 @@
+@CommisionCalculator_HostAddress = http://localhost:5177
+
+GET {{CommisionCalculator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

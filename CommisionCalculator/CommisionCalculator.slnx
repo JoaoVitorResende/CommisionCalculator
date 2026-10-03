@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/CommisionCalculator.API/">
+    <Project Path="CommisionCalculator/CommisionCalculator.csproj" />
+  </Folder>
+  <Folder Name="/CommisionCalculator.Application/">
+    <Project Path="CommisionCalculator.Application/CommisionCalculator.Application.csproj" />
+  </Folder>
+  <Folder Name="/CommisionCalculator.Communication/">
+    <Project Path="CommisionCalculator.Communication/CommisionCalculator.Communication.csproj" />
+  </Folder>
+  <Folder Name="/CommisionCalculator.Domain/">
+    <Project Path="CommisionCalculator.Domain/CommisionCalculator.Domain.csproj" />
+  </Folder>
+</Solution>
